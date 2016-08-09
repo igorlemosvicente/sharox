@@ -1,0 +1,17 @@
+h1 {
+	--font-style: italic;
+}
+
+p {
+	color: #000000;
+	--border-bottom: 2px solid black;
+	--border-top: 2px solid black;
+}
+
+figure {
+
+}
+
+figcaption {
+	color: navy;
+}

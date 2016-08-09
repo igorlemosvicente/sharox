@@ -1,0 +1,9 @@
+body {
+	background-color: #add8e6;
+	--background-image: url(eothuonetahu.jpg);
+	--border-color:;
+	--border-style:;
+	color: navy;
+	font-family: "Arial", "Helvetica", sans-serif;
+	text-align: center;
+}
