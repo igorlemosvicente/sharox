@@ -1,0 +1,34 @@
+.bars ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #400d12;
+  border-style: solid;
+  border-color: #400d12;
+  border-radius: 5px;
+}
+
+.bars li {
+  float: right;
+  display: inline;
+}
+
+.bars li:last-child {
+  border-left: none;
+}
+
+.bars li a {
+  display: block;
+  color: #4FD5D6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.bars li a:hover {
+  background-color: #4FD5D6;
+  color: #400d12;
+  border-left: none;
+}
