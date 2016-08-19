@@ -1,0 +1,48 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #400d12;
+  border-style: solid;
+  border-color: #400d12;
+  border-radius: 5px;
+}
+
+li {
+  float: right;
+  display: inline;
+}
+
+li:last-child {
+  border-left: none;
+}
+
+li a {
+  display: block;
+  color: #4FD5D6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+li a:hover {
+  background-color: #4FD5D6;
+  color: #400d12;
+  border-left: none;
+}
+
+#registerInput {
+  color: #4fd5d6;
+  background-color: #400d12;
+  border-radius: 10%;
+  margin: 1% 37%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+#registerInput img {
+  height: 100px;
+  width: 100px;
+}

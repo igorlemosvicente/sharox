@@ -1,18 +1,6 @@
+/*    	400D12	4FD5D6	FF0000	CDFFFF*/
+
 body {
-	background-color: #ccccd2;
-	--background-image: url(eothuonetahu.jpg);
-	--border-color:;
-	--border-style:;
-	color: navy;
-	font-family: "Arial", "Helvetica", sans-serif;
-	text-align: center;
-}
-
-#loginHeader {
-
-}
-
-img#logoHeader {
-	width = 50px;
-	height = 50px;
+  background-color: #CDFFFF;
+  text-align: center;
 }
