@@ -13,20 +13,21 @@
 <body>
   <div class="bars">
     <ul>
-      <li><a href="settings.html">Cadastro</a></li>
-      <li><a href="ranking.html">Ranking</a></li>
-      <li><a href="offers.html">Ofertas</a></li>
-      <li><a href="offer.html">Oferecer</a></li>
+      <li><a href="settings.php">Cadastro</a></li>
+      <li><a href="ranking.php">Ranking</a></li>
+      <li><a href="offers.php">Ofertas</a></li>
+      <li><a href="offer.php">Oferecer</a></li>
     </ul>
   </div>
 
   <h1>Olá, &ltusuário&gt.</h1>
 
   <div class="bars">
+    
 	    <ul>
-	    <li><a href = "about.html">Sobre a Sharox</a></li>
-	    <li><a href = "contact.html">Fale Conosco</a></li>
-	    <li><a href = "use.html">Cadastre sua Universidade</a></li>
+	    <li><a href = "about.php">Sobre a Sharox</a></li>
+	    <li><a href = "contact.php">Fale Conosco</a></li>
+	    <li><a href = "use.php">Cadastre sua Universidade</a></li>
 	  </ul>
 	</div>
 

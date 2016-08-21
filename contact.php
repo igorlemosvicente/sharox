@@ -12,23 +12,13 @@
 
 <body>
 
-  <div class="bars">
-    <ul>
-      <li><a href="login.html">Entrar</a></li>
-      <li><a href="register.html">Registrar</a></li>
-    </ul>
-  </div>
+  <?php include_once("macros/loginBar.php"); ?>
 
   <p>E-mail: igorlemosvicente@gmail.com</p>
   <p>Telegram: <a href="http://telegram.me/igorigorigorigor">@igorigorigorigor</a>
 
-    <div class="bars">
-  	    <ul>
-  	    <li><a href = "about.html">Sobre a Sharox</a></li>
-  	    <li><a href = "contact.html">Fale Conosco</a></li>
-  	    <li><a href = "use.html">Cadastre sua Universidade</a></li>
-  	  </ul>
-  	</div>
+    <?php include_once("macros/bottomBar.php"); ?>
+
 </body>
 
 </html>

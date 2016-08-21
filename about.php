@@ -11,12 +11,7 @@
 
 <body>
 
-  <div class="bars">
-    <ul>
-      <li><a href="login.html">Entrar</a></li>
-      <li><a href="register.html">Registrar</a></li>
-    </ul>
-  </div>
+  <?php include("macros/loginBar.php");	?>
 
   <img src="./img/logo.png" width="150" height="150" alt="logo">
   <h1>Sobre a Sharox</h1>
@@ -24,13 +19,7 @@
   <p>O site tem como objetivo aproximar professores que muitas vezes não usam boa parte da cota que lhes é reservada com professores que necessitam de mais do que o limite.
   </p>
 
-  <div class="bars">
-	    <ul>
-	    <li><a href = "about.html">Sobre a Sharox</a></li>
-	    <li><a href = "contact.html">Fale Conosco</a></li>
-	    <li><a href = "use.html">Cadastre sua Universidade</a></li>
-	  </ul>
-	</div>
+  <?php include_once("macros/bottomBar.php"); ?>
 
 </body>
 
