@@ -1,10 +1,12 @@
 #registerInput {
+  display: block;
   color: #4fd5d6;
   background-color: #400d12;
-  border-radius: 10%;
-  margin: 1% 37%;
-  padding-bottom: 1%;
-  padding-top: 1%;
+  border-radius: 10px;
+  width: 280px;
+  float: center;
+  margin: 20px auto 20px auto;
+  padding: 10px;
 }
 
 #registerInput img {

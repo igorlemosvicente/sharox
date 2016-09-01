@@ -19,10 +19,11 @@
 		<p><input type="password" required></p>
     <p>Repetir Senha</p>
     <p><input type="password" required></p>
-    <p>Universidade</p>
+    <p>Instituição</p>
     <p><input type="text" required></p>
     <p>Campus</p>
     <p><input type="text" required></p>
+		<input type="submit" value="Enviar">
 	</div>
 
 	<?php include_once("macros/bottomBar.php"); ?>

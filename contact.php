@@ -14,8 +14,8 @@
 
   <?php include_once("macros/loginBar.php"); ?>
 
-  <p>E-mail: igorlemosvicente@gmail.com</p>
-  <p>Telegram: <a href="http://telegram.me/igorigorigorigor">@igorigorigorigor</a>
+  <p><a href="mailto:igorlemosvicente@gmail.com"><img src="img/gmailicon.png" id="gmailicon" alt="igorlemosvicente@gmail.com"></p>
+  <p><a href="http://telegram.me/igorigorigorigor"><img src="img/telegramicon.png" id="telegramicon" alt="@igorigorigorigor"></a></p>
 
     <?php include_once("macros/bottomBar.php"); ?>
 

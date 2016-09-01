@@ -10,13 +10,14 @@
 
 <body>
 	<?php include_once("macros/loginBar.php"); ?>
-
 	<div id="loginInput">
 		<img src="./img/logo.png" alt="logo">
 		<p>E-mail</p>
 		<p><input type="email" required></p>
 		<p>Senha</p>
 		<p><input type="password" required></p>
+		<input type="submit" value="Enviar">
+		<input type="submit" value="Esqueci minha senha">
 	</div>
 
 	<?php include_once("macros/bottomBar.php"); ?>
