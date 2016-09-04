@@ -1,0 +1,14 @@
+Amarelo:
+#f8d31e
+
+Verde:
+#38a714
+
+Azul:
+#cfdff8
+
+Verde Escuro:
+#1b6005
+
+Amarelo Claro:
+#ffe359

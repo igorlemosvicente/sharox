@@ -1,11 +1,9 @@
 .bars ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 2px;
   overflow: hidden;
-  background-color: #400d12;
-  border-style: solid;
-  border-color: #400d12;
+  background-color: #1b6005;
   border-radius: 5px;
 }
 
@@ -20,7 +18,7 @@
 
 .bars li a {
   display: block;
-  color: #4FD5D6;
+  color: #f8d31e;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -28,7 +26,7 @@
 }
 
 .bars li a:hover {
-  background-color: #4FD5D6;
-  color: #400d12;
+  background-color: #f8d31e;
+  color: #1b6005;
   border-left: none;
 }

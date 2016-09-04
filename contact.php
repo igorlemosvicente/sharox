@@ -13,7 +13,6 @@
 <body>
 
   <?php include_once("macros/loginBar.php"); ?>
-
   <p><a href="mailto:igorlemosvicente@gmail.com"><img src="img/gmailicon.png" id="gmailicon" alt="igorlemosvicente@gmail.com"></p>
   <p><a href="http://telegram.me/igorigorigorigor"><img src="img/telegramicon.png" id="telegramicon" alt="@igorigorigorigor"></a></p>
 

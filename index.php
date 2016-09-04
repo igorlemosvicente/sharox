@@ -16,7 +16,7 @@
 		<p><input type="email" required></p>
 		<p>Senha</p>
 		<p><input type="password" required></p>
-		<input type="submit" value="Enviar">
+		<a href="home.php"><input type="submit" value="Enviar"></a>
 		<input type="submit" value="Esqueci minha senha">
 	</div>
 

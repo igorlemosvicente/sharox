@@ -13,8 +13,15 @@
 
     <?php include_once("macros/loginBar.php"); ?>
 
-  <p>O registro de universidades está desabilitado temporariamente.</p>
-
+    <div id="useForm">
+      <p>E-mail</p>
+      <input type="email" name="useEmail">
+      <p>Universidade a ser incluída</p>
+      <input type="text" name="useUniversity">
+      <p>Comentários adicionais</p>
+      <textarea name="useComment" id="useComment"></textarea>
+      <a href="home.php"><input type="submit" value="Enviar"></a>
+    </div>
   <?php include_once("macros/bottomBar.php"); ?>
 
 

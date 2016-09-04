@@ -13,3 +13,6 @@
   height: 100px;
   width: 100px;
 }
+#loginInput a {
+  text-decoration: none;
+}

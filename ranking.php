@@ -13,6 +13,42 @@
 <body>
 
   <?php include_once("macros/homeBar.php"); ?>
+  <div id="rankingProperties">
+    <p>Por pais</p>
+    <select>
+      <option value="br">Brasil</option>
+      <option value="others">Outros</option>
+    </select>
+    <p>Por Universidade</p>
+    <select>
+      <option value="uffs">UFFS - Universidade Federal da Fronteira Sul</option>
+      <option value="yoga">YCAP - Yoga com a Priscila</option>
+    </select>
+    <p>Por Campus</p>
+    <select>
+      <option value="xpc">Chapecó</option>
+    </select>
+  </div>
+
+  <div id="rankingList">
+    <table id="rankingTable">
+      <tr>
+        <th>Nome</th>
+        <th>Universidade</th>
+        <th>Saldo de Cópias</th>
+      </tr>
+      <tr>
+        <td>Priscila Delabetha</td>
+        <td>UFFS</td>
+        <td>-666</td>
+      </tr>
+      <tr>
+        <td>Dênio Duarte</td>
+        <td>La UFFEX</td>
+        <td>MonCherie</td>
+      </tr>
+    </table>
+  </div>
   <?php include_once("macros/bottomBar.php"); ?>
 
 </body>
