@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/default.css">
   <link rel="stylesheet" href="css/bars.css">
   <link rel="stylesheet" href="css/use.css">
+  <link rel="stylesheet" href="css/blocks.css">
   <title>Sharox - Cadastre sua universidade</title>
   </head>
 
@@ -13,7 +14,7 @@
 
     <?php include_once("macros/loginBar.php"); ?>
 
-    <div id="useForm">
+    <div id="useForm" class="blocks">
       <p>E-mail</p>
       <input type="email" name="useEmail">
       <p>Universidade a ser incluída</p>

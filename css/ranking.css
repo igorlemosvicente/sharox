@@ -1,14 +1,3 @@
-#rankingProperties {
-  display: block;
-  background-color: #f8d31e;
-  color: #1b6005;
-  text-decoration: none;
-  width: 380px;
-  border-radius: 10px;
-  margin: 10px auto 10px auto;
-  padding: 10px;
-}
-
 #rankingList {
   display: block;
   margin: 10px;
@@ -29,4 +18,8 @@
   background-color: #f8d31e;
   color: #1b6005;
   padding: 10px;
+}
+
+.blocks {
+  width: 380px;
 }

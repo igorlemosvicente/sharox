@@ -5,13 +5,14 @@
 	<link rel="stylesheet" href="css/default.css">
 	<link rel="stylesheet" href="css/register.css">
   <link rel="stylesheet" href="css/bars.css">
+  <link rel="stylesheet" href="css/blocks.css">
 	<title>Sharox - Registre sua conta</title>
 </head>
 
 <body>
 	<?php include("macros/loginBar.php"); ?>
 
-	<div id="registerInput">
+	<div id="registerInput" class="blocks">
 		<img src="./img/logo.png" alt="logo">
     <p>E-mail</p>
     <p><input type="email" required></p>

@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/default.css">
   <link rel="stylesheet" href="css/bars.css">
+  <link rel="stylesheet" href="css/blocks.css">
   <link rel="stylesheet" href="css/ranking.css">
   <title>Sharox - Ranking de doadores</title>
 
@@ -13,7 +14,7 @@
 <body>
 
   <?php include_once("macros/homeBar.php"); ?>
-  <div id="rankingProperties">
+  <div id="rankingProperties" class="blocks">
     <p>Por pais</p>
     <select>
       <option value="br">Brasil</option>
@@ -44,8 +45,8 @@
       </tr>
       <tr>
         <td>Dênio Duarte</td>
-        <td>La UFFEX</td>
-        <td>MonCherie</td>
+        <td>La UFFEX de Paris</td>
+        <td>123</td>
       </tr>
     </table>
   </div>

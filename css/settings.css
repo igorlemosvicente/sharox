@@ -1,0 +1,7 @@
+#settingsSchedule {
+  width: 550px;
+}
+
+#settingsSchedule th, td {
+  border: 1px solid #1b6005;
+}

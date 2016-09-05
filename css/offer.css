@@ -1,0 +1,11 @@
+.blocks {
+  width: 550px;
+}
+
+.blocks th, td {
+  border: 1px solid #1b6005;
+}
+
+.blocks a {
+  text-decoration: none;
+}

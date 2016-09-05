@@ -1,0 +1,10 @@
+.blocks {
+  display: block;
+  color: #1b6005;
+  background-color: #f8d31e;
+  border-radius: 10px;
+  width: 280px;
+  float: center;
+  margin: 20px auto 20px auto;
+  padding: 10px;
+}

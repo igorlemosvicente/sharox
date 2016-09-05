@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/default.css">
   <link rel="stylesheet" href="css/bars.css">
+  <link rel="stylesheet" href="css/blocks.css">
   <link rel="stylesheet" href="css/offer.css">
   <title>Sharox - Faça uma oferta</title>
 </head>
@@ -12,10 +13,10 @@
 
   <?php include_once("macros/homeBar.php"); ?>
 
-  <div id="postOffer">
+  <div id="postOffer" class="blocks">
     <form>
-      <legend>Cadastre sua oferta</legend>
-      Quantidade de cópias: <input type="number" min="1" name="copiesAmount">
+      <p>Cadastre sua oferta</p>
+      <p>Quantidade de cópias: <input type="number" min="1" name="copiesAmount"></p>
       Dias disponíveis:
       <table id="offerTable">
         <tr>
@@ -59,6 +60,7 @@
           <td><input type="checkbox" name="domingoNoite"></td>
         </tr>
       </table>
+      <a href="home.php"><input type="submit" value="Postar"></a>
   </div>
 
   <?php include_once("macros/bottomBar.php"); ?>

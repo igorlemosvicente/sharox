@@ -2,12 +2,13 @@ a {
   text-decoration: none;
 }
 
-#telegramicon {
+.contactIcon {
   height: 25px;
   width: 25px;
 }
 
-#gmailicon {
-  height: 25px;
-  width: 25px;
+#contactText {
+  resize: none;
+  width: 200px;
+  height: 200px;
 }
