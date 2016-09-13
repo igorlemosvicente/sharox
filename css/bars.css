@@ -1,3 +1,7 @@
+.bars {
+  clear: both;
+}
+
 .bars ul {
   list-style-type: none;
   margin: 0;
