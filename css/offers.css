@@ -1,0 +1,22 @@
+.blocks {
+      padding: 5px;
+}
+
+.confirmIconOffers {
+      width: 20px;
+      height: 20px;
+}
+
+.blocks table {
+      border-collapse: collapse;
+      margin: 5px auto 5px auto;
+}
+
+.blocks th, td {
+      border: 1px solid #1b6005;
+      width: 20px;
+}
+
+#copiesQuantity {
+      font-size: 28px;
+}

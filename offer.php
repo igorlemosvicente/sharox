@@ -1,20 +1,12 @@
-<!DOCTYPE html>
+<?php
+$pageTitle = "Faça uma oferta";
+$pageCss = '<link rel="stylesheet" href="css/offer.css">';
+$loggedStatus = true;
+include("php/topFile.php");
+?>
 
-<html>
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/default.css">
-  <link rel="stylesheet" href="css/bars.css">
-  <link rel="stylesheet" href="css/blocks.css">
-  <link rel="stylesheet" href="css/offer.css">
-  <title>Sharox - Faça uma oferta</title>
-</head>
-<body>
-
-  <?php include_once("macros/homeBar.php"); ?>
-
-  <div id="postOffer" class="blocks">
-    <form>
+  <div id="postOffer" class="blocks" method="post">
+    <form action="offers.php" method="post">
       <p>Cadastre sua oferta</p>
       <p>Quantidade de cópias: <input type="number" min="1" name="copiesAmount"></p>
       Dias disponíveis:
@@ -63,7 +55,4 @@
       <a href="home.php"><input type="submit" value="Postar"></a>
   </div>
 
-  <?php include_once("macros/bottomBar.php"); ?>
-
-</body>
-</html>
+  <?php include("php/bottomFile.php"); ?>
