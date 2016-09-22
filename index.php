@@ -1,7 +1,6 @@
 <?php
 $pageTitle = "Login";
 $pageCss = '<link rel="stylesheet" href="css/index.css">';
-$loggedStatus = false;
 
 include("php/topFile.php");
 ?>

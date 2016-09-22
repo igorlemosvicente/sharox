@@ -1,5 +1,7 @@
 .blocks {
       padding: 5px;
+      margin: 10px;
+      float: left;
 }
 
 .confirmIconOffers {
@@ -19,4 +21,8 @@
 
 #copiesQuantity {
       font-size: 28px;
+}
+
+#offerComment {
+      resize: none;
 }

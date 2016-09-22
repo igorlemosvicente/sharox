@@ -1,19 +1,10 @@
-<!DOCTYPE html>
+<?php
+$pageTitle = "Ranking";
+$pageCss = '<link rel="stylesheet" href="css/ranking.css">';
+$loggedStatus = true;
+include("php/topFile.php");
+?>
 
-<html>
-<head>
-
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/default.css">
-  <link rel="stylesheet" href="css/bars.css">
-  <link rel="stylesheet" href="css/blocks.css">
-  <link rel="stylesheet" href="css/ranking.css">
-  <title>Sharox - Ranking de doadores</title>
-
-</head>
-<body>
-
-  <?php include_once("macros/homeBar.php"); ?>
   <div id="rankingProperties" class="blocks">
     <p>Por pais</p>
     <select>
@@ -50,8 +41,5 @@
       </tr>
     </table>
   </div>
-  <?php include_once("macros/bottomBar.php"); ?>
 
-</body>
-
-</html>
+<?php include("php/bottomFile.php"); ?>
