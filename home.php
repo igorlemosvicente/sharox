@@ -5,6 +5,8 @@ $loggedStatus = true;
 include("php/topFile.php");
 ?>
 
-  <h1>Olá, <?php echo $_POST['registerName']; ?>.</h1>
+ <?php
+      echo "<h1> Olá, " . (isset($_POST['registerName']) ? $_POST['registerName']:"Priscilinha") . ".</h1>";
+?>
 
 <?php include("php/bottomFile.php"); ?>
