@@ -25,4 +25,4 @@
                         <li><a href="register.php">Registrar</a></li>
                   </ul>
             </div>
-      <?php } ?>
+      <?php }?>

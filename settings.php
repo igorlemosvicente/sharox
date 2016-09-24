@@ -1,19 +1,10 @@
-<!DOCTYPE html>
+<?php
+$pageTitle = "Cadastro";
+$pageCss = '<link rel="stylesheet" href="css/settings.css">';
+$loggedStatus = true;
+include("php/topFile.php");
+?>
 
-<html>
-<head>
-
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/default.css">
-  <link rel="stylesheet" href="css/bars.css">
-  <link rel="stylesheet" href="css/blocks.css">
-  <link rel="stylesheet" href="css/settings.css">
-  <title>Sharox - Ofertas</title>
-
-</head>
-<body>
-
-  <?php include_once("macros/homeBar.php"); ?>
   <div class="blocks">
     Nome <input type="text" name="settName" required>E-mail <input type="email" name="settEmail" required>
   </div>
@@ -73,8 +64,4 @@
     <input type="submit" name="settButton" value="Enviar">
   </div>
 
-  <?php include_once("macros/bottomBar.php"); ?>
-
-</body>
-
-</html>
+<?php include("php/bottomFile.php"); ?>

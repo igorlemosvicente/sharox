@@ -1,17 +1,9 @@
-<!DOCTYPE html>
-
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/default.css">
-  <link rel="stylesheet" href="css/bars.css">
-  <link rel="stylesheet" href="css/contact.css">
-  <link rel="stylesheet" href="css/blocks.css">
-  <title>Sharox - Fale conosco</title>
-</head>
-
-<body>
+<?php
+$pageTitle = "Fale Conosco";
+$pageCss = '<link rel="stylesheet" href="css/contact.css">';
+$loggedStatus = false;
+include("php/topFile.php");
+?>
 
   <?php include_once("macros/loginBar.php"); ?>
   <div id="contactUs" class="blocks">
@@ -30,8 +22,4 @@
     <a href="contact.php"><img src="img/twittericon.png" alt="@sharox" class="contactIcon"></a>
   </div>
 
-    <?php include_once("macros/bottomBar.php"); ?>
-
-</body>
-
-</html>
+  <?php include("php/bottomFile.php"); ?>

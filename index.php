@@ -17,11 +17,6 @@ include("php/topFile.php");
 	</form>
 </div>
 
-<?php
-if () {
-	echo "Senha errada. Tente \"priscilinha\"";
-}
-?>
 
 <?php
 include("php/bottomFile.php");
